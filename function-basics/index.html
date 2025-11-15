@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Function Basics</title>
+  </head>
+  <body>
+    <script>
+      function add7(number) {
+        return number + 7;
+      }
+
+      function multiply(number1, number2) {
+        return number1 * number2;
+      }
+
+      function capitalize(string) {
+        return string[0].toUpperCase() + string.slice(1);
+      }
+
+      function lastLetter(string) {
+        return string[string.length - 1];
+      }
+
+      console.log(add7(7));
+      console.log(multiply(5, 6));
+      console.log(capitalize("the Odin Project"));
+      console.log(lastLetter("The Odin Project"));
+    </script>
+  </body>
+</html>
