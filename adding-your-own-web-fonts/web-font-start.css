@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Roboto Slab";
+  src:
+    url(fonts/RobotoSlab-Regular.woff2) format("woff2"),
+    url(fonts/RobotoSlab-Regular.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src:
+    url(fonts/OpenSans-Regular.woff2) format("woff2"),
+    url(fonts/OpenSans-Regular.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* General setup */
+
+html {
+  font-size: 10px;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: "Open Sans";
+}
+
+/* Typography */
+
+h1 {
+  font-size: 3.2rem;
+  font-family: "Roboto Slab";
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  word-spacing: 0.6rem;
+}
