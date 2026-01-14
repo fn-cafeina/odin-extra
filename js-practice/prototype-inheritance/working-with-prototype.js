@@ -26,7 +26,9 @@
 */
 
 /*
-  true
-  null
-  undefined
+  Answer:
+
+  1) true
+  2) null
+  3) undefined
 */
