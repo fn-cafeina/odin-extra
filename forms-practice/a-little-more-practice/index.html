@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A little more practice</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <form novalidate>
+      <p>
+        <label for="mail">
+          <span>Email *:</span>
+          <input type="email" id="mail" required minlength="8" />
+          <span class="error"></span>
+        </label>
+      </p>
+
+      <p>
+        <label for="country">
+          <span>Country:</span>
+          <input id="country" list="countries" />
+          <datalist id="countries"></datalist>
+        </label>
+      </p>
+
+      <p>
+        <label for="postal-code">
+          <span>Postal code:</span>
+          <input id="postal-code" type="text" />
+        </label>
+      </p>
+
+      <p>
+        <label for="password">
+          <span>Password *:</span>
+          <input type="password" id="password" required minlength="8" />
+          <span class="error"></span>
+        </label>
+      </p>
+
+      <p>
+        <label for="confirm-password">
+          <span>Confirm password *:</span>
+          <input type="password" id="confirm-password" required minlength="8" />
+          <span class="error"></span>
+        </label>
+      </p>
+
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
